@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Блог</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Блог</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Игра &#34;Сапёр&#34;</title>
+      <link>/2025/05/08/minesweeper/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>/2025/05/08/minesweeper/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Сапёр&lt;/strong&gt; — классическая логическая игра, которая стала культовой благодаря предустановленной версии в операционной системе Windows. Её цель — открыть все клетки на поле, избегая мин. Простота правил и глубина стратегии сделали её популярной среди игроков всех возрастов.&lt;/p&gt;
+&lt;h2 id=&#34;геймплей-и-правила&#34;&gt;Геймплей и правила&lt;/h2&gt;
+&lt;p&gt;Игровое поле представляет собой сетку из клеток. Под некоторыми из них спрятаны &lt;strong&gt;мины&lt;/strong&gt;. Задача игрока — последовательно открывать клетки, руководствуясь подсказками:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Если в клетке &lt;strong&gt;число&lt;/strong&gt; — оно указывает, сколько мин находится в соседних 8 клетках.&lt;/li&gt;
+&lt;li&gt;Если открыта клетка с &lt;strong&gt;миной&lt;/strong&gt; — игра проиграна.&lt;/li&gt;
+&lt;li&gt;Чтобы пометить предполагаемую мину, игрок ставит &lt;strong&gt;флаг&lt;/strong&gt; (обычно через правую кнопку мыши).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Первое нажатие всегда безопасно и открывает стартовую зону без мин. Победа наступает, когда все безопасные клетки открыты, а все мины корректно помечены.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Игра &#34;Тетрис&#34;</title>
+      <link>/2025/05/08/tetris/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>/2025/05/08/tetris/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Тетрис&lt;/strong&gt; — легендарная головоломка, созданная в СССР и покорившая мир своей простотой и аддиктивным геймплеем. Её суть — управление падающими фигурами (тетромино) с целью создания сплошных горизонтальных линий. Игра стала культурным феноменом, вдохновившим миллионы игроков и разработчиков.&lt;/p&gt;
+&lt;h2 id=&#34;геймплей-и-правила&#34;&gt;Геймплей и правила&lt;/h2&gt;
+&lt;p&gt;Игровое поле представляет собой вертикальный прямоугольник шириной &lt;strong&gt;10 клеток&lt;/strong&gt;. Фигуры из четырёх квадратов (&lt;strong&gt;тетромино&lt;/strong&gt;) падают сверху в случайном порядке. Игрок может:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Поворачивать&lt;/strong&gt; фигуры на 90°, 180° или 270°,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Сдвигать&lt;/strong&gt; их влево или вправо,&lt;/li&gt;
+&lt;li&gt;Ускорять падение (&lt;strong&gt;«мягкий дроп»&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;Резко опускать фигуру вниз (&lt;strong&gt;«жёсткий дроп»&lt;/strong&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Цель — выстраивать линии без пробелов. Каждая заполненная линия &lt;strong&gt;исчезает&lt;/strong&gt;, освобождая место на поле. Игра заканчивается, когда фигуры достигают верхней границы экрана.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Статистика игровых сессий: анализ данных на примере Steam</title>
+      <link>/2025/05/08/game_session_statistics/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>/2025/05/08/game_session_statistics/</guid>
+      <description>&lt;p&gt;Игровая индустрия генерирует огромные массивы данных. Сегодня мы проанализируем &lt;strong&gt;анонимные данные 50,000 игровых сессий&lt;/strong&gt; из Steam (2024), чтобы выявить интересные закономерности. Для визуализации используем R и ggplot2.&lt;/p&gt;
+&lt;h2 id=&#34;подготовка-данных&#34;&gt;Подготовка данных&lt;/h2&gt;
+&lt;p&gt;Данные содержат информацию о:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Продолжительности сессии (минуты)&lt;/li&gt;
+&lt;li&gt;Времени начала (час)&lt;/li&gt;
+&lt;li&gt;Жанре игры&lt;/li&gt;
+&lt;li&gt;Платформе (ПК/консоль)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ключевая-статистика&#34;&gt;Ключевая статистика&lt;/h2&gt;
+&lt;p&gt;Table: &lt;span id=&#34;tab:summary&#34;&gt;&lt;/span&gt;Table 1: Статистика по жанрам&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;genre&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;Средняя_длительность&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;Медиана&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;Сессий&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Шутер&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;90.2&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;90.20598&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;15135&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;RPG&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;90.0&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;89.88367&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;12506&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Стратегия&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;90.4&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;90.10892&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;9810&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Симулятор&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;90.2&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;90.03653&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;7559&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Головоломка&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;90.6&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;90.55975&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4990&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;визуальный-анализ&#34;&gt;Визуальный анализ&lt;/h2&gt;
+&lt;h3 id=&#34;1-распределение-длительности-сессий&#34;&gt;1. Распределение длительности сессий&lt;/h3&gt;
+&lt;img src=&#34;/2025/05/08/game_session_statistics/index_files/figure-html/duration_plot-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;h3 id=&#34;2-активность-по-времени-суток&#34;&gt;2. Активность по времени суток&lt;/h3&gt;
+&lt;img src=&#34;/2025/05/08/game_session_statistics/index_files/figure-html/hourly_activity-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;/2025/05/08/game_session_statistics/index_files/figure-html/boxplot-1.png&#34; width=&#34;672&#34; /&gt;</description>
+    </item>
+  </channel>
+</rss>
