@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Game on Блог</title>
+    <link>/categories/game/</link>
+    <description>Recent content in Game on Блог</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game</title>
+      <link>/2025/05/08/game/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>/2025/05/08/game/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

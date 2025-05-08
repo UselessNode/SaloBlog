@@ -1,0 +1,13 @@
+---
+title: Game
+author: Тишков
+date: '2025-05-08'
+slug: game
+categories: []
+tags: []
+build:
+  render: yes
+  list: yes
+  publishResources: no
+---
+
